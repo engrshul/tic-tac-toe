@@ -15,9 +15,7 @@ function Board({squares,onClick}) {
   console.log('squares received in Board component are ',squares)
   return (
     <div style = {style}>
-      {
-        squares.map((square,index) =>  <Square value ={square} onClick={() => onClick(index)} />)
-      }
+      {squares.map((square,index) =>  <Square value ={square} onClick={() => onClick(index)} />)}
     </div>
   )
 }

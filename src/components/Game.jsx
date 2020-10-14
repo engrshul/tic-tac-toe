@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import Board from './Board'
 import {calculateWinner} from '../helper'
 
-
 const styles = {
   width: '200px',
   margin: '200px auto',
